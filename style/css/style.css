@@ -26,6 +26,15 @@ html {
   font-style: normal;
 }
 
+/* Petit Formal Script */
+@font-face {
+  font-family: "Petit Formal Script";
+  src: url("../fonts/webfontkit/petitformalscript-regular-webfont.woff") format("woff"),
+  url("../fonts/webfontkit/petitformalscript-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
