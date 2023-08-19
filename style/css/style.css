@@ -8,34 +8,22 @@ html {
   background-image: url(../../images/notebook.jpg);
 }
 
-/* TERMINAL GROTESQUE */
-@font-face {
-  font-family: "Terminal Grotesque Open";
-  src: url("/style/fonts/TerminalGrotesque-Open.woff2") format("woff2"),
-    url("/style/fonts/TerminalGrotesque-Open.woff") format("woff"),
-    url("/style/fonts/TerminalGrotesque-Open.ttf") format("truetype");
-  font-weight: bold;
-}
-
-/* PETIT FORMAL */
-@font-face {
-  font-family: "Petit Formal Script";
-  src: url("/style/fonts/petitformalscript-regular-webfont.woff") format("woff"),
-    url("/style/fonts/petitformalscript-regular-webfont.woff") format("woff"),
-    url("/style/fonts/PetitFormalScript-Regular.ttf") format("ttf");
-  font-weight: bold;
-}
-
-/* PERPETUA TITLING MT*/
-@font-face {
-  font-family: "Perpetua Titling MT";
-  src: url("/style/fonts/PerpetuaTitlingMTLight2.ttf") format("ttf");
-}
-
 /* ROCK 3D */
 @font-face {
   font-family: "Rock 3D";
-  src: url("/style/fonts/Rock3D-Regular.ttf") format("ttf");
+  src: url("../fonts/webfontkit/rock3d-regular-webfont.woff") format("woff"),
+  url("../fonts/webfontkit/rock3d-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Arial Narrow */
+@font-face {
+  font-family: "Arial Narrow";
+  src: url("../fonts/webfontkit/arial-narrow-webfont.woff") format("woff"),
+  url("../fonts/webfontkit/arial-narrow-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
