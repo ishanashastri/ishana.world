@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // JavaScript function to handle redirection
+        function redirectToHome() {
+            // List of paths you want to redirect
+            const pathsToRedirect = [
+                '/dance/',
+                '/visual/',
+                '/photo/',
+                '/film/',
+            ];
+
+            // Get the current path from the URL
+            const currentPath = window.location.pathname;
+
+            // Check if the current path is in the list of paths to redirect
+            if (pathsToRedirect.includes(currentPath)) {
+                // Redirect to the new home page
+                window.location.href = 'https://www.newhomepage.com';
+            }
+        }
+
+        // Call the function when the page loads
+        window.onload = redirectToHome;
+    </script>
+</head>
+<body>
+    <p>If you are not redirected automatically, <a href="https://www.newhomepage.com">click here</a>.</p>
+</body>
+</html>
