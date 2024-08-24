@@ -393,17 +393,15 @@ font-size: 2.5em;
 @media (max-width: 500px) {
   /* Full width on smaller screens */
   .columns > * {
-    width: 100%;
+    width: 95%;
   }
   .columns-2 > * {
-    width: 100%;
+    width: 95%;
   }
   div.menu {
     display: none;
   }
-  .content {
-    padding-left: 1.5rem;
-  }
+
 }
 .haath-disp {
   /* display: none; */
