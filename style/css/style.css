@@ -239,7 +239,7 @@ img.inverted:hover {
 .video-container {
   position: relative;
   overflow: hidden;
-  width: 80%;
+  width: 88.5%;
   padding-top: 45%;
 }
 
@@ -350,7 +350,8 @@ h2 {
 font-size: 2.5em;
 }
 .description {
-  width: 76%;
+  width: 89%;
+  font-size:1.2em;
 }
 
 .columns {
