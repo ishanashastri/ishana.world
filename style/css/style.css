@@ -363,7 +363,7 @@ font-size: 2.5em;
 .columns-2 {
   display: flex;
   flex-wrap: wrap;
-  width:76%;
+  width:88.5%;
 }
 
 .columns > * {
