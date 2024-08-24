@@ -402,6 +402,9 @@ font-size: 2.5em;
   div.menu {
     display: none;
   }
+  .content {
+    padding-left: 8%;
+  }
 
 }
 .haath-disp {
