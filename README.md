@@ -1,2 +1,1 @@
-## Personal Website for Ishana Shastri
-# aka me
+## Personal website for my projects and creative endeavors.
